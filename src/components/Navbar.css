@@ -1,11 +1,12 @@
 .nav {
-  background-color: gray;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: white;
+  color: black;
   gap: 2rem;
+  margin-right: 200px;
+  margin-left: 200px;
   padding: 0 1rem;
+  border-bottom: 4px solid black;
+  border-radius: 3px;
 }
 
 .nav ul {
@@ -13,22 +14,41 @@
   padding: 0;
   list-style: none;
   display: flex;
+  font-size: 34px;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 
-.nav a {
-  color: inherit;
+.nav ul > *:nth-child(3) {
+  margin-left: 20rem;
+}
+
+.nav ul > *:nth-child(4) {
+  margin-left: auto;
+}
+
+.nav button {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(31, 29, 29);
+  padding: 5px 30px;
+  text-align: center;
   text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0.25rem;
+  display: inline-block;
 }
 
-.nav li.active {
-  background-color: gray;
+.nav button.loja:hover {
+  background-color: rgb(255, 5, 255);
 }
-
-.nav li:hover {
-  background-color: lightgray;
+.nav button.novidades:hover {
+  background-color: rgb(30, 213, 245);
+}
+.nav button.sobrenos:hover {
+  background-color: rgb(101, 233, 84);
+}
+.nav button.faq:hover {
+  background-color: rgb(245, 118, 14);
+}
+.nav button.cart:hover {
+  background-color: rgb(230, 255, 5);
 }

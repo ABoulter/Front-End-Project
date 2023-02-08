@@ -21,8 +21,8 @@ export default function Navbar() {
         <li>
           <NavLink to="/">
             <img
-              src="https://www.simpleimageresizer.com/_uploads/photos/476783fc/Pixelated_Pepe_Sad_Frog_Meme_Rare_Dank_1_80x80.png"
-              alt="Pepe triste"
+              src="https://www.simpleimageresizer.com/_uploads/photos/476783fc/Poubelle_du_Garage-13_4_240x120.png"
+              alt="Poubelle du Garage"
             />
           </NavLink>
         </li>

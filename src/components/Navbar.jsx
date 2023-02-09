@@ -20,10 +20,7 @@ export default function Navbar() {
         </li>
         <li>
           <NavLink to="/">
-            <img
-              src="https://www.simpleimageresizer.com/_uploads/photos/476783fc/Poubelle_du_Garage-13_4_240x120.png"
-              alt="Poubelle du Garage"
-            />
+            <img src="https://imgur.com/Gov1gbs.png" alt="Poubelle du Garage" />
           </NavLink>
         </li>
 

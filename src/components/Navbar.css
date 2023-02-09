@@ -37,6 +37,10 @@
   display: inline-block;
 }
 
+.nav button:hover {
+  cursor: pointer;
+}
+
 .nav button.loja:hover {
   background-color: rgb(255, 5, 255);
 }

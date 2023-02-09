@@ -10,6 +10,17 @@
 .herosection img {
   border: 10px solid black;
 }
+.herosection .memegenerator img {
+  border: 5px solid black;
+}
+
+.herosection .memegenerator img:hover {
+  border: 5px solid black;
+  border-left: 12px solid black;
+  border-bottom: 12px solid black;
+
+  cursor: pointer;
+}
 
 .herosection section {
   display: grid;
@@ -20,4 +31,31 @@
 }
 .herosection section img {
   border: 5px solid black;
+}
+.herosection section img:hover {
+  border-left: 12px solid black;
+  border-bottom: 12px solid black;
+
+  cursor: pointer;
+}
+
+.herosection :last-child {
+  display: grid;
+  grid-template-columns: 750px 750px;
+  grid-template-rows: 250px 500px;
+  gap: 25px;
+}
+
+.herosection .memegenerator {
+  display: grid;
+  grid-template-columns: 750px;
+  grid-template-rows: 250px;
+}
+
+.info div img {
+  margin-top: 1rem;
+}
+
+.herosection .footer img {
+  border: none;
 }

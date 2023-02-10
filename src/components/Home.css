@@ -1,61 +1,95 @@
-.herosection {
-  background-color: white;
-  color: black;
+.hero {
+  background-color: #fff;
+  color: #000;
   gap: 2rem;
-  margin-right: 200px;
-  margin-left: 200px;
-  padding-top: 1rem;
+}
+.headerMobile {
+  display: none;
+  border: 5px solid #000;
 }
 
-.herosection img {
-  border: 10px solid black;
+.memeDesktop {
+  max-width: 99%;
+  width: 99%;
+  height: auto !important;
 }
-.herosection .memegenerator img {
-  border: 5px solid black;
+.memeMobile {
+  display: none;
+  border: solid #000;
 }
-
-.herosection .memegenerator img:hover {
-  border: 5px solid black;
-  border-left: 12px solid black;
-  border-bottom: 12px solid black;
-
-  cursor: pointer;
-}
-
-.herosection section {
-  display: grid;
-  grid-template-columns: 750px 750px;
-  grid-template-rows: 250px 250px;
-  margin-top: 20px;
-  gap: 25px;
-}
-.herosection section img {
-  border: 5px solid black;
-}
-.herosection section img:hover {
-  border-left: 12px solid black;
-  border-bottom: 12px solid black;
-
-  cursor: pointer;
+.hero h1 .headerTitle {
+  border: 5px solid #000;
+  max-width: 99%;
+  width: 99%;
+  height: auto !important;
 }
 
-.herosection :last-child {
-  display: grid;
-  grid-template-columns: 750px 750px;
-  grid-template-rows: 250px 500px;
-  gap: 25px;
+.novaColecao,
+.todasAsObras,
+.faq,
+.sobreNos,
+.aTuaObra {
+  margin-top: 15px;
 }
 
-.herosection .memegenerator {
-  display: grid;
-  grid-template-columns: 750px;
-  grid-template-rows: 250px;
+.novaColecao,
+.todasAsObras,
+.faq {
+  float: left;
+  clear: left;
 }
 
-.info div img {
-  margin-top: 1rem;
+.sobreNos,
+.aTuaObra {
+  margin-bottom: 15px;
+  float: right;
+  clear: right;
 }
 
-.herosection .footer img {
+.hero div img {
+  border: solid #000;
+}
+
+.hero .footer img {
   border: none;
+  max-width: 100%;
+  width: 100%;
+  height: auto !important;
+}
+
+@media (max-width: 767px) {
+  .hero h1 .headerTitle {
+    display: none;
+    max-width: 99%;
+    max-height: 99%;
+  }
+
+  .hero h1 .headerMobile {
+    display: block;
+    max-width: 99%;
+    max-height: 99%;
+  }
+
+  .memeGenerator .memeDesktop {
+    display: none;
+  }
+  .memeGenerator .memeMobile {
+    display: block;
+    max-width: 99%;
+    max-height: 99%;
+  }
+
+  .hero .footer img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .novaColecao,
+  .todasAsObras,
+  .faq,
+  .sobreNos,
+  .aTuaObra {
+    float: none;
+    width: auto;
+  }
 }

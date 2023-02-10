@@ -2,45 +2,67 @@ import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="herosection">
-      <img src="https://imgur.com/p6i1XFn.png" alt="titulo da pagina" />
-      <section>
-        <div>
-          <NavLink to="/novidades">
-            <img src="https://imgur.com/rKXn5tR.gif" alt="nova colecção" />
-          </NavLink>
-        </div>
-        <div>
-          <NavLink to="/loja">
-            <img src="https://imgur.com/UyIdFTh.png" alt="faz a tua obra" />
-          </NavLink>
-        </div>
-        <div>
-          <NavLink to="/fazatuaobra">
-            <img src="https://imgur.com/z2jp7yo.png" alt="todas as obras" />
-          </NavLink>
-        </div>
-      </section>
-      <div className="memegenerator">
-        <NavLink to="/memegenerator">
-          <img src="https://imgur.com/pBioAPo.png" alt="meme generator" />
+    <nav className="hero">
+      <h1>
+        <img
+          src="/images/header.gif"
+          className="headerTitle"
+          alt="titulo da pagina"
+        />
+        <img
+          src="/images/headermobile.gif"
+          className="headerMobile"
+          alt="header mobile"
+        />
+      </h1>
+
+      <div className="novaColecao">
+        <NavLink to="/novidades">
+          <img src="/images/newcollection.gif" alt="nova colecção" />
         </NavLink>
       </div>
-      <section className="info">
-        <div className="faq">
-          <NavLink to="/faq">
-            <img src="https://imgur.com/KXvSHkf.png" alt="faq" />
-          </NavLink>
-        </div>
-        <div className="sobrenos">
-          <NavLink to="/sobrenos">
-            <img src="https://imgur.com/rYCSxmv.png" alt="Sobre nos" />
-          </NavLink>
-        </div>
-      </section>
-      <div className="footer">
-        <img src="https://imgur.com/QwGLQZ7.png" alt="assinatura" />
+      <div className="aTuaObra">
+        <NavLink to="/fazatuaobra">
+          <img src="/images/atuaobra.png" alt="faz a tua obra" />
+        </NavLink>
       </div>
-    </main>
+      <div className="todasAsObras">
+        <NavLink to="/loja">
+          <img src="/images/todasasobras.png" alt="todas as obras" />
+        </NavLink>
+      </div>
+
+      <div className="memeGenerator">
+        <NavLink to="/memegenerator">
+          <img
+            src="/images/memegenerator.gif"
+            alt="meme generator"
+            className="memeDesktop"
+          />
+        </NavLink>
+        <NavLink to="/memegenerator">
+          <img
+            src="/images/mememobile.gif"
+            alt="meme generator"
+            className="memeMobile"
+          />
+        </NavLink>
+      </div>
+
+      <div className="faq">
+        <NavLink to="/faq">
+          <img src="/images/FAQ.png" alt="faq" />
+        </NavLink>
+      </div>
+      <div className="sobreNos">
+        <NavLink to="/sobrenos">
+          <img src="/images/sobrenos.png" alt="Sobre nos" />
+        </NavLink>
+      </div>
+
+      <div className="footer">
+        <img src="/images/footer.png" alt="assinatura" />
+      </div>
+    </nav>
   );
 }

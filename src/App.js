@@ -12,17 +12,19 @@ import Cart from "./components/Cart";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/loja" element={<Loja />} />
-        <Route path="/novidades" element={<Novidades />} />
-        <Route path="/sobrenos" element={<Sobre />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/loja" element={<Loja />} />
+          <Route path="/novidades" element={<Novidades />} />
+          <Route path="/sobrenos" element={<Sobre />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

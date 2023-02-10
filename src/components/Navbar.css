@@ -2,30 +2,22 @@
   background-color: white;
   color: black;
   gap: 2rem;
-  margin-right: 200px;
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
   padding: 0 1rem;
   border-bottom: 4px solid black;
   border-radius: 3px;
 }
 
 .nav ul {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 20px;
+
   list-style: none;
   display: flex;
-  font-size: 34px;
+  font-size: 22px;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-}
-
-.nav ul > *:nth-child(3) {
-  margin-left: 15rem;
-}
-
-.nav ul > *:nth-child(4) {
-  margin-left: auto;
 }
 
 .nav button {
@@ -41,18 +33,24 @@
   cursor: pointer;
 }
 
-.nav button.loja:hover {
+.nav button.lojaNav:hover {
   background-color: rgb(255, 5, 255);
 }
-.nav button.novidades:hover {
+.nav button.novidadesNav:hover {
   background-color: rgb(30, 213, 245);
 }
-.nav button.sobrenos:hover {
+.nav button.sobrenosNav:hover {
   background-color: rgb(101, 233, 84);
 }
-.nav button.faq:hover {
+.nav button.faqNav:hover {
   background-color: rgb(245, 118, 14);
 }
-.nav button.cart:hover {
+.nav button.cartNav:hover {
   background-color: rgb(230, 255, 5);
+}
+
+@media (max-width: 767px) {
+  .nav ul {
+    display: none;
+  }
 }

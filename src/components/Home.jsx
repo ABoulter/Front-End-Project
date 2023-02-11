@@ -2,34 +2,34 @@ import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
-    <nav className="hero">
+    <main className="hero">
       <h1>
         <img
           src="/images/header.gif"
           className="headerTitle"
-          alt="titulo da pagina"
+          alt="Poubelle du Garage"
         />
         <img
           src="/images/headermobile.gif"
           className="headerMobile"
-          alt="header mobile"
+          alt="Poubelle du Garage"
         />
       </h1>
+      <div className="obrasContainer">
+        <div className="novaColecao">
+          <NavLink to="/novidades">
+            <img src="/images/newcollection.gif" alt="nova colecção" />
+          </NavLink>
 
-      <div className="novaColecao">
-        <NavLink to="/novidades">
-          <img src="/images/newcollection.gif" alt="nova colecção" />
-        </NavLink>
-      </div>
-      <div className="aTuaObra">
-        <NavLink to="/obra">
-          <img src="/images/atuaobra.png" alt="faz a tua obra" />
-        </NavLink>
-      </div>
-      <div className="todasAsObras">
-        <NavLink to="/loja">
-          <img src="/images/todasasobras.png" alt="todas as obras" />
-        </NavLink>
+          <NavLink to="/loja">
+            <img src="/images/todasasobras.png" alt="todas as obras" />
+          </NavLink>
+        </div>
+        <div className="aTuaObra">
+          <NavLink to="/obra">
+            <img src="/images/atuaobra.png" alt="faz a tua obra" />
+          </NavLink>
+        </div>
       </div>
 
       <div className="memeGenerator">
@@ -49,20 +49,21 @@ export default function Home() {
         </NavLink>
       </div>
 
-      <div className="faq">
-        <NavLink to="/faq">
-          <img src="/images/FAQ.png" alt="faq" />
-        </NavLink>
+      <div className="infoContainer">
+        <div className="faq">
+          <NavLink to="/faq">
+            <img src="/images/FAQ.png" alt="Perguntas" />
+          </NavLink>
+        </div>
+        <div className="sobreNos">
+          <NavLink to="/sobrenos">
+            <img src="/images/sobrenos.png" alt="Sobre nós" />
+          </NavLink>
+        </div>
       </div>
-      <div className="sobreNos">
-        <NavLink to="/sobrenos">
-          <img src="/images/sobrenos.png" alt="Sobre nos" />
-        </NavLink>
-      </div>
-
-      <div className="footer">
-        <img src="/images/footer.png" alt="assinatura" />
-      </div>
-    </nav>
+      <footer className="footer">
+        <img src="/images/footer.png" alt="" />
+      </footer>
+    </main>
   );
 }

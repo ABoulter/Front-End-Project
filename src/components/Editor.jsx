@@ -26,11 +26,11 @@ export default function Editor() {
   return (
     <div id="editor">
       <h1>
-        <img src="https://imgur.com/wbdRumF.png" alt="titulo do editor" />
+        <img src="/images/fazatuaobratitle.png" alt="titulo do editor" />
       </h1>
       {hideDrawingPanel && (
         <h2>
-          <img src="https://imgur.com/YeGV0Kr.png" alt="titulo da tela" />
+          <img src="/images/size1.gif" alt="titulo da tela" />
         </h2>
       )}
       {hideDrawingPanel && (

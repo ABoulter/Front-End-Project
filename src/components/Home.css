@@ -3,61 +3,62 @@
   color: #000;
   gap: 2rem;
 }
+.hero h1 .headerTitle {
+  border: 5px solid #000;
+  max-width: 99%;
+}
+
+.hero div img {
+  border: 3px solid #000;
+}
+
+.obrasContainer div {
+  margin-right: 25px;
+  margin-left: 10px;
+}
+.infoContainer div {
+  margin-right: 25px;
+  margin-left: 10px;
+}
 .headerMobile {
   display: none;
   border: 5px solid #000;
 }
 
 .memeDesktop {
-  max-width: 99%;
-  width: 99%;
-  height: auto !important;
+  max-width: 100%;
+  width: 97%;
+  margin-right: 7px;
 }
 .memeMobile {
   display: none;
-  border: solid #000;
-}
-.hero h1 .headerTitle {
-  border: 5px solid #000;
-  max-width: 99%;
-  width: 99%;
-  height: auto !important;
+  border: 1px solid #000;
 }
 
-.novaColecao,
-.todasAsObras,
-.faq,
-.sobreNos,
-.aTuaObra {
-  margin-top: 15px;
+@media (min-width: 560px) {
+  .infoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+  }
+  .obrasContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .obrasContainer img,
+  .infoContainer img {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  .hero .footer img {
+    display: none;
+    border: none;
+    max-width: 100%;
+  }
 }
 
-.novaColecao,
-.todasAsObras,
-.faq {
-  float: left;
-  clear: left;
-}
-
-.sobreNos,
-.aTuaObra {
-  margin-bottom: 15px;
-  float: right;
-  clear: right;
-}
-
-.hero div img {
-  border: solid #000;
-}
-
-.hero .footer img {
-  border: none;
-  max-width: 100%;
-  width: 100%;
-  height: auto !important;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 560px) {
   .hero h1 .headerTitle {
     display: none;
     max-width: 99%;
@@ -77,19 +78,12 @@
     display: block;
     max-width: 99%;
     max-height: 99%;
+    margin-left: 10px;
   }
 
   .hero .footer img {
+    display: none;
     max-width: 100%;
     max-height: 100%;
-  }
-
-  .novaColecao,
-  .todasAsObras,
-  .faq,
-  .sobreNos,
-  .aTuaObra {
-    float: none;
-    width: auto;
   }
 }

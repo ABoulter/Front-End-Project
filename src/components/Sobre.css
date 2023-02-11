@@ -20,7 +20,7 @@
 }
 
 .cardTeam {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
   margin: 8px;
 }
 
@@ -37,7 +37,7 @@
   background-color: #ff7b00;
   background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
   color: rgb(54, 51, 51);
-  border: 5px solid black;
+  border: 3px solid black;
 }
 
 .aboutSection h1 {
@@ -46,17 +46,17 @@
 
 .cardContainer {
   padding: 0 16px;
+  background-color: #b7e2ec;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
 }
 
-.cardContainer::after,
-.rowTeam::after {
-  content: "";
-  clear: both;
-  display: table;
+.cardContainer img {
+  margin-top: 10px;
+  border: 4px solid orange;
 }
 
 .cardTitle {
-  color: grey;
+  color: rgb(117, 116, 116);
 }
 
 @media screen and (max-width: 650px) {

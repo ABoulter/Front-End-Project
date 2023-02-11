@@ -17,8 +17,8 @@ export default function Sobre() {
       <div className="rowTeam">
         <div className="columnTeam">
           <div className="cardTeam">
-            <img src="/images/sirfriggit.png" alt="sapo num fato militar" />
             <div className="cardContainer">
+              <img src="/images/sirfriggit.png" alt="sapo num fato militar" />
               <h2>Sir Friggit Frogitson</h2>
               <p className="cardTitle">CEO & Fundador </p>
               <p>
@@ -32,11 +32,11 @@ export default function Sobre() {
         </div>
         <div className="columnTeam">
           <div className="cardTeam">
-            <img
-              src="/images/sirpatomajor.png"
-              alt="pato num fato militar com uma capa elegante"
-            />
             <div className="cardContainer">
+              <img
+                src="/images/sirpatomajor.png"
+                alt="pato num fato militar com uma capa elegante"
+              />
               <h2>Sir Horácio de Sá</h2>
               <p className="cardTitle">Director de Negócios Estrangeiros </p>
               <p>
@@ -50,8 +50,8 @@ export default function Sobre() {
         </div>
         <div className="columnTeam">
           <div className="cardTeam">
-            <img src="/images/sirdog.png" alt="cão num fato militar" />
             <div className="cardContainer">
+              <img src="/images/sirdog.png" alt="cão num fato militar" />
               <h2>Sir Bacon Grill</h2>
               <p className="cardTitle">Farejador de Arte </p>
               <p>

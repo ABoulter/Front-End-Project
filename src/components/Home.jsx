@@ -22,7 +22,7 @@ export default function Home() {
         </NavLink>
       </div>
       <div className="aTuaObra">
-        <NavLink to="/fazatuaobra">
+        <NavLink to="/obra">
           <img src="/images/atuaobra.png" alt="faz a tua obra" />
         </NavLink>
       </div>

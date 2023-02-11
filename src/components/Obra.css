@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+.obra {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Play", sans-serif;
+  text-align: center;
+  min-width: fit-content;
+}
+
+#drawingPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pixels {
+  margin-bottom: 2rem;
+}
+
+#editor {
+  border: 3px solid black;
+  background: url("https://imgur.com/QF4m7b2.png") no-repeat;
+  background-size: cover;
+  border-radius: 0.25rem;
+  padding: 1rem 4rem 2rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+#options {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+}
+
+.panelInput {
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  margin: 0 1rem 0.5rem 1rem;
+  padding-left: 1rem;
+}
+
+.panelInput:focus {
+  outline: none !important;
+  border-color: red;
+  box-shadow: 0 0 0.5rem gray;
+}
+
+.button {
+  font-size: 1.25rem;
+  background-color: rgb(252, 145, 5);
+  color: black;
+  padding: 1rem 3rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 02s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  border-color: rgb(250, 3, 3);
+}
+
+.circle-picker {
+  margin-bottom: 1.5rem !important;
+}
+
+.pixel {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.pixel:hover {
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  width: fit-content;
+}

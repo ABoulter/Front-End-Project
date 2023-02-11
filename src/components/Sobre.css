@@ -1,0 +1,71 @@
+.containerTeam {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.containerTeam::before,
+.containerTeam::after {
+  box-sizing: inherit;
+}
+
+.columnTeam {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.rowTeam {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardTeam {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.cardTeam img {
+  width: 100%;
+}
+
+.aboutSection {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  text-align: center;
+  background-color: #ff7b00;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  color: rgb(54, 51, 51);
+  border: 5px solid black;
+}
+
+.aboutSection h1 {
+  color: black;
+}
+
+.cardContainer {
+  padding: 0 16px;
+}
+
+.cardContainer::after,
+.rowTeam::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cardTitle {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .columnTeam {
+    width: 100%;
+    display: block;
+  }
+  .rowTeam {
+    display: block;
+    width: 100%;
+  }
+}

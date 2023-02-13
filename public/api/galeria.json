@@ -1,0 +1,110 @@
+[
+  {
+    "category_id": 1,
+    "category": "Pixel Art Collection",
+    "art": [
+      {
+        "art_id": 1,
+        "name": "Rest in Peace",
+        "price": 500.0,
+        "image": "/images/Prixelart1.gif"
+      },
+      {
+        "art_id": 2,
+        "name": "Lazy Days",
+        "price": 350.0,
+        "image": "/images/Pixelart2.png"
+      },
+      {
+        "art_id": 3,
+        "name": "Poseidon's Last Day on the Job",
+        "price": 500.0,
+        "image": "/images/Pixelart3.png"
+      },
+      {
+        "art_id": 4,
+        "name": "Turning the Page",
+        "price": 600.0,
+        "image": "/images/Pixelart4.png"
+      },
+      {
+        "art_id": 5,
+        "name": "Programmer's Path",
+        "price": 500.0,
+        "image": "/images/Pixelart5.gif"
+      }
+    ]
+  },
+  {
+    "category_id": 2,
+    "category": "Praise the Sun Collection",
+    "art": [
+      {
+        "art_id": 6,
+        "name": "Kindlefire",
+        "price": 200.0,
+        "image": "/images/sunart1.png"
+      },
+      {
+        "art_id": 7,
+        "name": "Glory of the Sun",
+        "price": 300.0,
+        "image": "/images/sunart2.jpg"
+      },
+      {
+        "art_id": 8,
+        "name": "Cloud Spliter",
+        "price": 150.0,
+        "image": "/images/sunart3.jpg"
+      },
+      {
+        "art_id": 9,
+        "name": "Where's the Sun?",
+        "price": 600.0,
+        "image": "/images/sunart4.jpg"
+      },
+      {
+        "art_id": 10,
+        "name": "As smooth as Sun beams",
+        "price": 1000.0,
+        "image": "/images/sunart5.jpg"
+      }
+    ]
+  },
+  {
+    "category_id": 3,
+    "category": "He-man collection",
+    "art": [
+      {
+        "art_id": 11,
+        "name": "Yeet",
+        "price": 150.0,
+        "image": "/images/heman1.jpg"
+      },
+      {
+        "art_id": 12,
+        "name": "21st November 1985",
+        "price": 100.0,
+        "image": "/images/heman2.jpg"
+      },
+      {
+        "art_id": 13,
+        "name": "Monster Chaos",
+        "price": 800.0,
+        "image": "/images/heman4.jpg"
+      },
+      {
+        "art_id": 14,
+        "name": "The Power",
+        "price": 600.0,
+        "image": "/images/heman4.jpg"
+      },
+      {
+        "art_id": 15,
+        "name": "No escape",
+        "price": 500.0,
+        "image": "/images/heman5.jpg"
+      }
+    ]
+  }
+]

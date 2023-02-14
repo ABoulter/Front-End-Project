@@ -3,6 +3,7 @@ import "./components/Navbar.css";
 import "./components/Home.css";
 import "./components/Obra.css";
 import "./components/Sobre.css";
+import "./components/Loja.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Loja from "./components/Loja";

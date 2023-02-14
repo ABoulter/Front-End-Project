@@ -1,0 +1,86 @@
+#art .artList1,
+.artList2,
+.artList3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+#art .artList1 img {
+  max-width: 100%;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  outline: 4px solid black;
+}
+#art .artList2 img {
+  max-width: 100%;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  outline: 4px solid black;
+}
+#art .artList3 img {
+  max-width: 100%;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  outline: 4px solid black;
+}
+
+#art button {
+  width: 100%;
+  background-color: rgb(252, 145, 5);
+  margin-top: 4px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 02s ease-in-out;
+}
+
+#art button:hover {
+  background-color: white;
+  border-color: black;
+}
+
+.artList1 {
+  text-align: center;
+  padding: 15px;
+  text-align: center;
+  background-color: #bef38c;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  color: rgb(54, 51, 51);
+  border: 3px solid black;
+}
+.artList2 {
+  text-align: center;
+  padding: 15px;
+  text-align: center;
+  background-color: #fde610;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  color: rgb(54, 51, 51);
+  border: 3px solid black;
+}
+.artList3 {
+  text-align: center;
+  padding: 15px;
+  text-align: center;
+  background-color: #db61f3;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  color: rgb(54, 51, 51);
+  border: 3px solid black;
+}
+
+#art p {
+  background-color: white;
+  border: 3px solid rgb(54, 51, 51);
+}
+#art span {
+  color: blue;
+}
+
+.hideArt {
+  display: none;
+}

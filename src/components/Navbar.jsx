@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="nav">
       <div>
         <NavLink to="/">
-          <img src="https://imgur.com/Gov1gbs.png" alt="Logo" />
+          <img src="/images/logo.png" alt="Logo" />
         </NavLink>
       </div>
       <ul>

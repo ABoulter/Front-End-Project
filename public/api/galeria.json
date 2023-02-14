@@ -1,7 +1,7 @@
 [
   {
     "category_id": 1,
-    "category": "Pixel Art Collection",
+    "category": "/images/pixelartcollection.png",
     "art": [
       {
         "art_id": 1,
@@ -11,33 +11,33 @@
       },
       {
         "art_id": 2,
-        "name": "Lazy Days",
+        "name": "Dark Souls",
         "price": 350.0,
         "image": "/images/Pixelart2.png"
       },
       {
         "art_id": 3,
-        "name": "Poseidon's Last Day on the Job",
+        "name": "The End",
         "price": 500.0,
         "image": "/images/Pixelart3.png"
       },
       {
         "art_id": 4,
-        "name": "Turning the Page",
+        "name": "Conqueror's Respite",
         "price": 600.0,
-        "image": "/images/Pixelart4.png"
+        "image": "/images/Pixelart4.jpg"
       },
       {
         "art_id": 5,
-        "name": "Programmer's Path",
+        "name": "Blood Borne",
         "price": 500.0,
-        "image": "/images/Pixelart5.gif"
+        "image": "/images/Pixelart5.png"
       }
     ]
   },
   {
     "category_id": 2,
-    "category": "Praise the Sun Collection",
+    "category": "/images/praisethesun.png",
     "art": [
       {
         "art_id": 6,
@@ -65,7 +65,7 @@
       },
       {
         "art_id": 10,
-        "name": "As smooth as Sun beams",
+        "name": "Sun Beam Smooth ",
         "price": 1000.0,
         "image": "/images/sunart5.jpg"
       }
@@ -73,11 +73,11 @@
   },
   {
     "category_id": 3,
-    "category": "He-man collection",
+    "category": "/images/hemancollection.png",
     "art": [
       {
         "art_id": 11,
-        "name": "Yeet",
+        "name": "Monster Brains",
         "price": 150.0,
         "image": "/images/heman1.jpg"
       },
@@ -91,7 +91,7 @@
         "art_id": 13,
         "name": "Monster Chaos",
         "price": 800.0,
-        "image": "/images/heman4.jpg"
+        "image": "/images/heman3.jpg"
       },
       {
         "art_id": 14,

@@ -1,0 +1,25 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+.footerContainer .rightContainer {
+  border-top: 4px solid black;
+  width: 100%;
+}
+.footerContainer .rightContainer img {
+  margin-top: 50px;
+}
+
+.footerContainer .leftContainer {
+  border-top: 4px solid black;
+  width: 100%;
+}
+
+@media (max-width: 560px) {
+  .footerContainer {
+    display: none;
+  }
+}

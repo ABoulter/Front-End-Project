@@ -28,6 +28,7 @@ export default function Loja() {
           alt="butão de fechar"
           onClick={() => setModel(false)}
         />
+        {/* colocar butão */}
         <img src={tempImgSrc} alt="" />
       </div>
       {art.map((category) => (
@@ -46,12 +47,15 @@ export default function Loja() {
                     alt=""
                     onClick={() => getImg(art.image)}
                   />
-                  <NavLink to={`/art-details/${art.art_id}`}>
-                    <button type="button">Encomendar!</button>
+                  <NavLink
+                    to={`/art-details/${category.category_id}/${art.art_id}`}>
+                    <button> Encomendar!</button>
+                    {/* tirar butão, estilizar anchor */}
                   </NavLink>
                 </div>
                 <p>
-                  Pelo baixíssimo preço de{" "}
+                  Pelo baixíssimo preço de
+                  <br />
                   <span>{String(art.price).replace(".", ",")}€</span>
                 </p>
               </div>

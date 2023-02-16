@@ -8,7 +8,7 @@ export default function Faq() {
     {
       question: "Como posso fazer o pagamento da minha encomenda?",
       answer: "Paypal, MBWAY, Referência MB, Cartão de Crédito e Débito",
-      open: true,
+      open: false,
     },
     {
       question: "Quais os custos de envio?",
@@ -24,7 +24,7 @@ export default function Faq() {
     {
       question: "O que acontece se eu não estiver na morada de entrega?",
       answer:
-        "Atira-mos o seu glorioso quadro pela a janela a dentro, qualquer estrago será pago pelos nossos seguros.",
+        "Atiramos o seu glorioso quadro pela a janela a dentro, qualquer estrago será pago pelos nossos seguros.",
       open: false,
     },
     {
@@ -79,7 +79,7 @@ export default function Faq() {
 
       <div className="faqContainer">
         {faq.map((faqs, i) => (
-          <FaqQuestions faqs={faqs} index={i} toggleFAQ={toggleFAQ} />
+          <FaqQuestions faqs={faqs} index={i} toggleFAQ={toggleFAQ} key={i} />
         ))}
       </div>
       <div className="contactContainer">
@@ -89,11 +89,29 @@ export default function Faq() {
 
         <form ref={form} onSubmit={sendEmail} className="form">
           <h3>Estamos a um clique de ti!</h3>
-          <input type="text" placeholder="Nome" name="user_name" required />
-          <input type="email" placeholder="Email" name="user_email" required />
-          <input type="text" placeholder="Assunto" name="subject" required />
+          <input
+            type="text"
+            placeholder="Nome"
+            name="user_name"
+            aria-label="Nome"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            name="user_email"
+            aria-label="Email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Assunto"
+            name="subject"
+            aria-label="Assunto"
+            required
+          />
           <textarea name="message" cols="30" rows="10"></textarea>
-          <button type="submit" className="formBtn">
+          <button type="submit" className="formBtn" aria-label="Enviar">
             Enviar
           </button>
         </form>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Loja() {
   const [art, setArt] = useState([]);
@@ -18,7 +19,9 @@ export default function Loja() {
 
   return (
     <main id="art">
-      <div className={model ? "model open" : "model"}>
+      <div
+        className={model ? "model open" : "model"}
+        onClick={() => setModel(false)}>
         <img
           className="closeModal"
           src="/images/close.png"
@@ -30,7 +33,7 @@ export default function Loja() {
       {art.map((category) => (
         <section key={category.category_id}>
           <h2>
-            <img src={category.category} />
+            <img src={category.category} alt="" />
           </h2>
 
           <div id="allList" className={`artList${category.category_id}`}>
@@ -43,8 +46,9 @@ export default function Loja() {
                     alt=""
                     onClick={() => getImg(art.image)}
                   />
-
-                  <button type="button">Encomendar!</button>
+                  <NavLink to={`/art-details/${art.art_id}`}>
+                    <button type="button">Encomendar!</button>
+                  </NavLink>
                 </div>
                 <p>
                   Pelo baixíssimo preço de{" "}

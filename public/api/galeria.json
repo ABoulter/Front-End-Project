@@ -7,31 +7,56 @@
         "art_id": 1,
         "name": "Rest in Peace",
         "price": 500.0,
-        "image": "/images/Prixelart1.gif"
+        "image": "/images/Prixelart1.gif",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart12.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 2,
         "name": "Dark Souls",
         "price": 350.0,
-        "image": "/images/Pixelart2.png"
+        "image": "/images/Pixelart2.png",
+        "product_image": [
+          "/images/pixelart21.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart23.jpg"
+        ]
       },
       {
         "art_id": 3,
         "name": "The End",
         "price": 500.0,
-        "image": "/images/Pixelart3.png"
+        "image": "/images/Pixelart3.png",
+        "product_image": [
+          "/images/pixelart31.jpg",
+          "/images/pixelart32.jpg",
+          "/images/pixelart33.jpg"
+        ]
       },
       {
         "art_id": 4,
         "name": "Conqueror's Respite",
         "price": 600.0,
-        "image": "/images/Pixelart4.jpg"
+        "image": "/images/Pixelart4.jpg",
+        "product_image": [
+          "/images/pixelart41.jpg",
+          "/images/pixelart42.jpg",
+          "/images/pixelart43.jpg"
+        ]
       },
       {
         "art_id": 5,
         "name": "Blood Borne",
         "price": 500.0,
-        "image": "/images/Pixelart5.png"
+        "image": "/images/Pixelart5.png",
+        "product_image": [
+          "/images/pixelArt51.jpg",
+          "/images/pixelart52.jpg",
+          "/images/pixelart53.jpg"
+        ]
       }
     ]
   },
@@ -43,31 +68,56 @@
         "art_id": 6,
         "name": "Kindlefire",
         "price": 200.0,
-        "image": "/images/sunart1.png"
+        "image": "/images/sunart1.png",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 7,
         "name": "Glory of the Sun",
         "price": 300.0,
-        "image": "/images/sunart2.jpg"
+        "image": "/images/sunart2.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 8,
         "name": "Cloud Spliter",
         "price": 150.0,
-        "image": "/images/sunart3.jpg"
+        "image": "/images/sunart3.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 9,
         "name": "Where's the Sun?",
         "price": 600.0,
-        "image": "/images/sunart4.jpg"
+        "image": "/images/sunart4.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 10,
         "name": "Sun Beam Smooth ",
         "price": 1000.0,
-        "image": "/images/sunart5.jpg"
+        "image": "/images/sunart5.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       }
     ]
   },
@@ -79,31 +129,56 @@
         "art_id": 11,
         "name": "Monster Brains",
         "price": 150.0,
-        "image": "/images/heman1.jpg"
+        "image": "/images/heman1.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 12,
         "name": "21st November 1985",
         "price": 100.0,
-        "image": "/images/heman2.jpg"
+        "image": "/images/heman2.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 13,
         "name": "Monster Chaos",
         "price": 800.0,
-        "image": "/images/heman3.jpg"
+        "image": "/images/heman3.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 14,
         "name": "The Power",
         "price": 600.0,
-        "image": "/images/heman4.jpg"
+        "image": "/images/heman4.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       },
       {
         "art_id": 15,
         "name": "No escape",
         "price": 500.0,
-        "image": "/images/heman5.jpg"
+        "image": "/images/heman5.jpg",
+        "product_image": [
+          "/images/pixelArt11.jpg",
+          "/images/pixelart22.jpg",
+          "/images/pixelart13.jpg"
+        ]
       }
     ]
   }

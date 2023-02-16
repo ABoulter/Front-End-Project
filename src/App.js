@@ -4,6 +4,8 @@ import "./components/Home.css";
 import "./components/Obra.css";
 import "./components/Sobre.css";
 import "./components/Loja.css";
+import "./components/ProductPage.css";
+import "./components/Faq.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Loja from "./components/Loja";
@@ -13,6 +15,7 @@ import Sobre from "./components/Sobre";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Obra from "./components/Obra";
+import ProductPage from "./components/ProductPage";
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/loja" element={<Loja />} />
+          <Route path="/art-details/:art_id" element={<ProductPage />} />
           <Route path="/novidades" element={<Novidades />} />
           <Route path="/sobrenos" element={<Sobre />} />
           <Route path="/faq" element={<Faq />} />

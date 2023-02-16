@@ -1,0 +1,132 @@
+.faqTitle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: burlywood;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  border: 3px solid black;
+}
+
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.faqContainer .faq {
+  margin: 15px;
+  padding: 20px;
+  background-color: lightblue;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faqContainer .faq .faqQuestion {
+  position: relative;
+  font-size: 20px;
+  padding-right: 80px;
+  transition: all 0.4s ease;
+}
+
+.faqContainer .faq .faqQuestion::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+
+  background-image: url("/public/images/arrow.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: all 0.4s ease;
+}
+
+.faqContainer .faq .faqAnswer {
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.4s ease;
+}
+
+.faqContainer .faq.open .faqQuestion {
+  margin-bottom: 35px;
+}
+
+.faqContainer .faq.open .faqQuestion::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faqContainer .faq.open .faqAnswer {
+  padding: 35px;
+  background-color: lightgoldenrodyellow;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  color: black;
+  font-weight: bolder;
+  border: 1px solid black;
+  max-height: 1000px;
+  opacity: 1;
+}
+.contactContainer h2 {
+  margin-bottom: 50px;
+}
+.contactContainer .form {
+  background-color: lightgoldenrodyellow;
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  padding: 30px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  max-width: 50%;
+
+  margin: 0 auto;
+}
+
+.contactContainer .form input {
+  font-size: 17px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contactContainer .form textarea {
+  margin: 15px;
+}
+
+.contactContainer .form button {
+  width: 100%;
+
+  background-color: rgb(252, 145, 5);
+  margin-top: 4px;
+  margin-bottom: 15px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 1s ease-in-out;
+}
+
+.contactContainer .form button:hover {
+  background-color: white;
+  border-color: black;
+}

@@ -2,6 +2,7 @@
   {
     "category_id": 1,
     "category": "/images/pixelartcollection.png",
+    "name": "Pixel Art Collection",
     "art": [
       {
         "art_id": 1,
@@ -63,6 +64,7 @@
   {
     "category_id": 2,
     "category": "/images/praisethesun.png",
+    "name": "Praise the Sun Collection",
     "art": [
       {
         "art_id": 6,
@@ -124,6 +126,7 @@
   {
     "category_id": 3,
     "category": "/images/hemancollection.png",
+    "name": "He-man Collection",
     "art": [
       {
         "art_id": 11,

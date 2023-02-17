@@ -34,7 +34,7 @@ export default function Loja() {
       {art.map((category) => (
         <section key={category.category_id}>
           <h2>
-            <img src={category.category} alt="" />
+            <img src={category.category} alt={category.name} />
           </h2>
 
           <div id="allList" className={`artList${category.category_id}`}>
@@ -44,7 +44,7 @@ export default function Loja() {
                   <h3>{art.name}</h3>
                   <img
                     src={art.image}
-                    alt=""
+                    alt={art.name}
                     onClick={() => getImg(art.image)}
                   />
                   <NavLink

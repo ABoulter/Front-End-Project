@@ -35,12 +35,11 @@
   align-items: center;
 }
 
-h1 {
+#editor h1 {
   margin-bottom: 1.5rem;
-  color: white;
 }
 
-h2 {
+#editor h2 {
   margin-bottom: 1rem;
 }
 #options {

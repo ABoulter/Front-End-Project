@@ -9,10 +9,14 @@
         "name": "Rest in Peace",
         "price": 500.0,
         "image": "/images/Prixelart1.gif",
+        "author": "Jebus Lovah",
+        "year": "2003",
+        "description": "Pixel Arte inspirado na relação entre a morte e a fé",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart12.jpg",
-          "/images/pixelart13.jpg"
+          "/images/Prixelart1.gif",
+          "/images/pixelArt11.png",
+          "/images/pixelart12.png",
+          "/images/pixelart13.png"
         ]
       },
       {
@@ -20,7 +24,11 @@
         "name": "Dark Souls",
         "price": 350.0,
         "image": "/images/Pixelart2.png",
+        "author": "Artorias",
+        "year": "2012",
+        "description": "Pixel Arte de grupo de todos os Bosses no jogo Dark Souls ",
         "product_image": [
+          "/images/Pixelart2.png",
           "/images/pixelart21.jpg",
           "/images/pixelart22.jpg",
           "/images/pixelart23.jpg"
@@ -31,7 +39,11 @@
         "name": "The End",
         "price": 500.0,
         "image": "/images/Pixelart3.png",
+        "author": "TheLegend27",
+        "year": "2005",
+        "description": "Pixel Arte inspirado nos mistérios do buraco negro.",
         "product_image": [
+          "/images/Pixelart3.png",
           "/images/pixelart31.jpg",
           "/images/pixelart32.jpg",
           "/images/pixelart33.jpg"
@@ -42,7 +54,11 @@
         "name": "Conqueror's Respite",
         "price": 600.0,
         "image": "/images/Pixelart4.jpg",
+        "author": "Artorias",
+        "year": "2011",
+        "description": "Pixel Arte do momento de repouso antes de uma batalha dificil.",
         "product_image": [
+          "/images/Pixelart4.jpg",
           "/images/pixelart41.jpg",
           "/images/pixelart42.jpg",
           "/images/pixelart43.jpg"
@@ -53,7 +69,11 @@
         "name": "Blood Borne",
         "price": 500.0,
         "image": "/images/Pixelart5.png",
+        "author": "The Hunter",
+        "year": "2003",
+        "description": "Pixel Arte inspirado no jogo Bloodborne",
         "product_image": [
+          "/images/Pixelart5.png",
           "/images/pixelArt51.jpg",
           "/images/pixelart52.jpg",
           "/images/pixelart53.jpg"
@@ -71,10 +91,14 @@
         "name": "Kindlefire",
         "price": 200.0,
         "image": "/images/sunart1.png",
+        "author": "Solaire of Astora",
+        "year": "2013",
+        "description": "Auto retrato do autor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/sunart1.png",
+          "/images/sunart11.jpg",
+          "/images/sunart12.jpg",
+          "/images/sunart13.jpg"
         ]
       },
       {
@@ -82,10 +106,14 @@
         "name": "Glory of the Sun",
         "price": 300.0,
         "image": "/images/sunart2.jpg",
+        "author": "Solaire of Astora",
+        "year": "2013",
+        "description": "Outro auto retrato do autor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/sunart2.jpg",
+          "/images/sunart21.jpg",
+          "/images/sunart22.jpg",
+          "/images/sunart23.jpg"
         ]
       },
       {
@@ -93,10 +121,14 @@
         "name": "Cloud Spliter",
         "price": 150.0,
         "image": "/images/sunart3.jpg",
+        "author": "Solaire of Astora",
+        "year": "2013",
+        "description": "Mais outro auto retrato do autor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/sunart3.jpg",
+          "/images/sunart31.jpg",
+          "/images/sunart32.jpg",
+          "/images/sunart33.jpg"
         ]
       },
       {
@@ -104,10 +136,14 @@
         "name": "Where's the Sun?",
         "price": 600.0,
         "image": "/images/sunart4.jpg",
+        "author": "Solaire of Astora",
+        "year": "2013",
+        "description": "Também, um auto retrato do autor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/sunart4.jpg",
+          "/images/sunart41.jpg",
+          "/images/sunart42.jpg",
+          "/images/sunart43.jpg"
         ]
       },
       {
@@ -115,10 +151,14 @@
         "name": "Sun Beam Smooth ",
         "price": 1000.0,
         "image": "/images/sunart5.jpg",
+        "author": "Solaire of Astora",
+        "year": "2013",
+        "description": "Finalmente... um auto retrato do autor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/sunart5.jpg",
+          "/images/sunart51.jpg",
+          "/images/sunart52.jpg",
+          "/images/sunart53.jpg"
         ]
       }
     ]
@@ -133,10 +173,14 @@
         "name": "Monster Brains",
         "price": 150.0,
         "image": "/images/heman1.jpg",
+        "author": "Adam Musclor",
+        "year": "1985",
+        "description": "Uma grande Batalha entre He-man e Skeletor",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/heman1.jpg",
+          "/images/heman11.jpg",
+          "/images/heman12.jpg",
+          "/images/heman13.jpg"
         ]
       },
       {
@@ -144,10 +188,14 @@
         "name": "21st November 1985",
         "price": 100.0,
         "image": "/images/heman2.jpg",
+        "author": "Adam Musclor",
+        "year": "1983",
+        "description": "He-man na solidão do inverno",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/heman2.jpg",
+          "/images/heman21.jpg",
+          "/images/heman22.jpg",
+          "/images/heman23.jpg"
         ]
       },
       {
@@ -155,10 +203,14 @@
         "name": "Monster Chaos",
         "price": 800.0,
         "image": "/images/heman3.jpg",
+        "author": "Adam Musclor",
+        "year": "1989",
+        "description": "O que é que está a passar neste quadro? Ninguém sabe",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/heman3.jpg",
+          "/images/heman31.jpg",
+          "/images/heman32.jpg",
+          "/images/heman33.jpg"
         ]
       },
       {
@@ -166,10 +218,14 @@
         "name": "The Power",
         "price": 600.0,
         "image": "/images/heman4.jpg",
+        "author": "Adam Musclor",
+        "year": "1987",
+        "description": "O poder",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/heman4.jpg",
+          "/images/heman41.jpg",
+          "/images/heman42.jpg",
+          "/images/heman43.jpg"
         ]
       },
       {
@@ -177,10 +233,14 @@
         "name": "No escape",
         "price": 500.0,
         "image": "/images/heman5.jpg",
+        "author": "Adam Musclor",
+        "year": "1988",
+        "description": "Será que o plano de Skeletor vai resultar?",
         "product_image": [
-          "/images/pixelArt11.jpg",
-          "/images/pixelart22.jpg",
-          "/images/pixelart13.jpg"
+          "/images/heman5.jpg",
+          "/images/heman51.jpg",
+          "/images/heman52.jpg",
+          "/images/heman53.jpg"
         ]
       }
     ]

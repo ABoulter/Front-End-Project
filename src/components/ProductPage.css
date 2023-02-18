@@ -1,1 +1,125 @@
+.productPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.productViewer {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid black;
+  margin: 30px;
+
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images2/Free_download_Retro_wallpaper.jpg");
+}
+
+.productViewer .viewerRow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.productViewer .viewerRow .viewerColOne {
+  flex: 1;
+
+  padding: 6px;
+}
+.productViewer .viewerRow .viewerColOne .productRow {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: none;
+}
+.productViewer .viewerRow .viewerColOne .productRow img {
+  display: block;
+  width: 100%;
+}
+.productViewer .viewerRow .viewerColTwo {
+  margin: 0 auto;
+  flex: 5;
+}
+.productViewer .viewerRow .viewerColTwo .displayProduct {
+  background-color: burlywood;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oLUXB7tfe_UEUxRMiJIimAHaHa%26pid%3DApi&amp;f=1&amp;ipt=b258840a48861f53125b4c48db44883100942268b7c86ef717717724a87bfd2d&amp;ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: inherit;
+  cursor: pointer;
+  border: 2px solid rgb(92, 55, 7);
+}
+.productViewer .viewerRow .viewerColTwo .displayProduct div {
+  padding: 2rem;
+}
+.productViewer .viewerRow .viewerColTwo .displayProduct div img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.productViewer .viewerRow .viewerColTwo .displayProduct div img:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(150%);
+}
+
+.productDescription {
+  display: flex;
+  background-color: rgb(241, 237, 237);
+  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  max-width: 100%;
+  width: 25%;
+
+  height: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin: 100px auto 100px 50px;
+  border: 2px solid black;
+}
+
+.productDescription .price {
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: rgb(122, 198, 248);
+  background-color: rgb(253, 253, 253);
+  border: 1px solid black;
+}
+
+.productDescription button {
+  width: 100%;
+  background-color: rgb(252, 145, 5);
+
+  margin-bottom: 5px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 1s ease-in-out;
+}
+.productDescription .voltar {
+  width: 100%;
+  background-color: rgb(212, 235, 149);
+  border-radius: 5%;
+  margin-bottom: 15px;
+  font-size: medium;
+  text-transform: lowercase;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: background-color 1s ease-in-out;
+}
+.productDescription button:hover {
+  background-color: white;
+  border-color: black;
+}

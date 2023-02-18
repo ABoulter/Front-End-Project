@@ -108,18 +108,71 @@
 }
 .productDescription .voltar {
   width: 100%;
-  background-color: rgb(212, 235, 149);
+  background-color: rgb(10, 10, 10);
   border-radius: 5%;
   margin-bottom: 15px;
   font-size: medium;
   text-transform: lowercase;
-  color: black;
+  color: rgb(253, 250, 250);
   padding: 10px;
   cursor: pointer;
   border: 1px solid black;
   transition: background-color 1s ease-in-out;
 }
-.productDescription button:hover {
-  background-color: white;
+.productDescription .voltar:hover {
+  background-color: rgb(247, 110, 110);
   border-color: black;
+}
+
+.productDescription .productAdd {
+  width: 100%;
+  background-color: rgb(83, 252, 5);
+
+  margin-bottom: 5px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 1s ease-in-out;
+}
+.productDescription .productAdd:hover {
+  background-color: rgb(250, 240, 240);
+
+  border-color: rgb(95, 245, 8);
+}
+.productDescription .productRemove {
+  width: 100%;
+  background-color: rgb(241, 90, 90);
+
+  margin-bottom: 5px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 1s ease-in-out;
+}
+.productDescription .productRemove:hover {
+  background-color: rgb(250, 240, 240);
+
+  border-color: rgb(245, 4, 4);
+}
+
+.productDescription .goToCart {
+  width: 100%;
+  background-color: rgb(252, 145, 5);
+  margin-bottom: 5px;
+  color: black;
+  padding: 15px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 1s ease-in-out;
+}
+
+.productDescription .goToCart:hover {
+  background-color: rgb(250, 240, 240);
+
+  border-color: rgb(17, 15, 15);
 }

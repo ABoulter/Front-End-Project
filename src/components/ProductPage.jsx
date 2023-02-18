@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { NavLink } from "react-router-dom";
 
-export default function ProductPage() {
+export default function ProductPage(props) {
   const params = useParams();
+  const { onAdd, onRemove, cart } = props;
 
   const [productDetails, setProductDetails] = useState([]);
   const [sliderPos, setSliderPos] = useState(0);
@@ -31,6 +32,8 @@ export default function ProductPage() {
     setTempImgSrc(image);
     setModel(true);
   };
+
+  const item = cart.find((x) => x.art_id === productDetails.art_id);
 
   return (
     <section className="productPage">
@@ -80,20 +83,48 @@ export default function ProductPage() {
             </div>
           </div>
 
-          <div className="productDescription">
-            <h1>{productDetails.name}</h1>
-            <h2>Descrição</h2>
+          {productDetails.art_id && (
+            <div className="productDescription">
+              <h1>{productDetails.name}</h1>
+              <h2>Descrição</h2>
 
-            <p>{productDetails.description}.</p>
-            <p>Autor: {productDetails.author}</p>
-            <p>Ano: {productDetails.year}</p>
+              <p>{productDetails.description}.</p>
+              <p>
+                <strong>Autor:</strong> {productDetails.author}
+              </p>
+              <p>
+                <strong>Ano:</strong> {productDetails.year}
+              </p>
 
-            <p className="price">{productDetails.price}€</p>
-            <button>Encomendar</button>
-            <NavLink to="/loja">
-              <button className="voltar">Voltar</button>
-            </NavLink>
-          </div>
+              <p className="price">{productDetails.price}€</p>
+
+              {item ? (
+                <div>
+                  <button className="productAdd" onClick={() => onAdd(item)}>
+                    +
+                  </button>
+
+                  <span>{item.qty}</span>
+                  <button
+                    className="productRemove"
+                    onClick={() => onRemove(item)}>
+                    -
+                  </button>
+
+                  <NavLink to="/cart">
+                    <button className="goToCart">Ir para Cesto</button>
+                  </NavLink>
+                </div>
+              ) : (
+                <button onClick={() => onAdd(productDetails)}>
+                  Encomendar
+                </button>
+              )}
+              <NavLink to="/loja">
+                <button className="voltar">Voltar</button>
+              </NavLink>
+            </div>
+          )}
         </div>
       </div>
     </section>

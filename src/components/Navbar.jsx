@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const { cartItems } = props;
   return (
     <nav className="nav">
       <div>
@@ -41,7 +42,8 @@ export default function Navbar() {
         <li className="active">
           <NavLink to="/cart">
             <button type="button" className="cartNav">
-              CART
+              CART (
+              <span className="cartNumber">{cartItems ? cartItems : ""}</span>)
             </button>
           </NavLink>
         </li>

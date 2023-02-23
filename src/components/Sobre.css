@@ -35,7 +35,7 @@
   padding: 15px;
   text-align: center;
   background-color: #ff7b00;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   color: rgb(54, 51, 51);
   border: 3px solid black;
 }
@@ -47,7 +47,7 @@
 .cardContainer {
   padding: 0 16px;
   background-color: #b7e2ec;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
 }
 
 .cardContainer img {

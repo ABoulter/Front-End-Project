@@ -11,7 +11,7 @@
   border: 1.5px solid black;
   margin: 30px;
 
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images2/Free_download_Retro_wallpaper.jpg");
+  background-image: url("/public/images/superNintendo.jpg");
 }
 
 .productViewer .viewerRow {
@@ -43,7 +43,7 @@
 }
 .productViewer .viewerRow .viewerColTwo .displayProduct {
   background-color: burlywood;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oLUXB7tfe_UEUxRMiJIimAHaHa%26pid%3DApi&amp;f=1&amp;ipt=b258840a48861f53125b4c48db44883100942268b7c86ef717717724a87bfd2d&amp;ipo=images");
+  background-image: url("/public/images/retroSwirl.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -65,13 +65,12 @@
 }
 .productViewer .viewerRow .viewerColTwo .displayProduct div img:hover {
   cursor: pointer;
-  -webkit-filter: brightness(150%);
 }
 
 .productDescription {
   display: flex;
   background-color: rgb(241, 237, 237);
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   max-width: 100%;
   width: 25%;
 

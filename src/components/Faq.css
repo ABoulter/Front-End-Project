@@ -5,7 +5,7 @@
   padding: 15px;
   margin-top: 10px;
   background-color: burlywood;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   border: 3px solid black;
 }
 
@@ -28,7 +28,7 @@
   margin: 15px;
   padding: 20px;
   background-color: lightblue;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
 
   border: 1px solid black;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -76,7 +76,7 @@
 .faqContainer .faq.open .faqAnswer {
   padding: 35px;
   background-color: lightgoldenrodyellow;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   color: black;
   font-weight: bolder;
   border: 1px solid black;
@@ -88,7 +88,7 @@
 }
 .contactContainer .form {
   background-color: lightgoldenrodyellow;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   padding: 30px;
   border: 1px solid black;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);

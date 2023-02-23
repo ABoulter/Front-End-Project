@@ -32,7 +32,7 @@
   padding: 15px;
   text-align: center;
   background-color: #bef38c;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   color: rgb(54, 51, 51);
   border: 3px solid black;
 }
@@ -41,7 +41,7 @@
   padding: 15px;
   text-align: center;
   background-color: #fde610;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   color: rgb(54, 51, 51);
   border: 3px solid black;
 }
@@ -50,7 +50,7 @@
   padding: 15px;
   text-align: center;
   background-color: #db61f3;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   color: rgb(54, 51, 51);
   border: 3px solid black;
 }
@@ -80,7 +80,7 @@
 #art p {
   background-color: rgb(141, 140, 140);
   color: white;
-  background-image: url("https://www.nicepng.com/png/full/10-109010_texture-png.png");
+  background-image: url("/public/images/rustyOverlay.png");
   border: 1px solid rgb(27, 26, 26);
 }
 #art span {

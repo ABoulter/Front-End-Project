@@ -37,17 +37,15 @@
   cursor: pointer;
 }
 
-.nav button.lojaNav:hover {
+.nav button.galeriaNav:hover {
   background-color: rgb(255, 5, 255);
 }
-.nav button.novidadesNav:hover {
-  background-color: rgb(30, 213, 245);
-}
+
 .nav button.sobrenosNav:hover {
   background-color: rgb(101, 233, 84);
 }
 .nav button.faqNav:hover {
-  background-color: rgb(245, 118, 14);
+  background-color: rgb(96, 205, 255);
 }
 .nav button.cartNav:hover {
   background-color: rgb(230, 255, 5);

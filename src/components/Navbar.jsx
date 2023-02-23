@@ -11,16 +11,9 @@ export default function Navbar(props) {
       </div>
       <ul>
         <li className="active">
-          <NavLink to="/loja">
-            <button type="button" className="lojaNav">
-              Loja
-            </button>
-          </NavLink>
-        </li>
-        <li className="active">
-          <NavLink to="/novidades">
-            <button type="button" className="novidadesNav">
-              Novidades
+          <NavLink to="/galeria">
+            <button type="button" className="galeriaNav">
+              Galeria
             </button>
           </NavLink>
         </li>

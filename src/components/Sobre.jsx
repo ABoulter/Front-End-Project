@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export default function Sobre() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="containerTeam">
       <div className="aboutSection">
@@ -26,7 +31,7 @@ export default function Sobre() {
                 uma de Bons Serviços, criou a empresa quando encontrou uma caixa
                 de li- Obras de Arte na garagem.
               </p>
-              <p>friggit@poubelle.pt</p>
+              <p className="sobrenosContact">friggit@poubelle.pt</p>
             </div>
           </div>
         </div>
@@ -44,7 +49,7 @@ export default function Sobre() {
                 responsável pela exportação internacional de Arte. É visinho do
                 Sir Bacon e também tem caixas de Obras de Arte na sua garagem.
               </p>
-              <p>horacio.business@poubelle.pt</p>
+              <p className="sobrenosContact">horacio.business@poubelle.pt</p>
             </div>
           </div>
         </div>
@@ -60,7 +65,7 @@ export default function Sobre() {
                 Sir Friggit, também ele tem, caixas de Obras de Arte na sua
                 garagem.
               </p>
-              <p>ilikebacon.96@poubelle.pt</p>
+              <p className="sobrenosContact">ilikebacon.96@poubelle.pt</p>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 import { CirclePicker } from "react-color";
 import DrawingPanel from "./Painel";
@@ -9,6 +10,10 @@ export default function Editor() {
   const [hideDrawingPanel, setHideDrawingPanel] = useState(true);
   const [buttonText, setButtonText] = useState("desenhar");
   const [selectedColor, setColor] = useState("#f44336");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function initializeDrawingPanel() {
     setHideOptions(!hideOptions);

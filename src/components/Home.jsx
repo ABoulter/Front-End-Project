@@ -17,12 +17,8 @@ export default function Home() {
       </h1>
       <div className="obrasContainer">
         <div className="novaColecao">
-          <NavLink to="/novidades">
-            <img src="/images/newcollection.gif" alt="nova colecção" />
-          </NavLink>
-
-          <NavLink to="/loja">
-            <img src="/images/todasasobras.png" alt="todas as obras" />
+          <NavLink to="/galeria">
+            <img src="/images/lojaa.gif" alt="todas as obras" />
           </NavLink>
         </div>
         <div className="aTuaObra">

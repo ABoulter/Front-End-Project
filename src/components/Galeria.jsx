@@ -5,6 +5,9 @@ export default function Loja() {
   const [art, setArt] = useState([]);
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     fetch("/api/galeria.json")
@@ -56,7 +59,7 @@ export default function Loja() {
                 <p>
                   Pelo baixíssimo preço de
                   <br />
-                  <span>{String(art.price).replace(".", ",")}€</span>
+                  <span>{art.price}€</span>
                 </p>
               </div>
             ))}

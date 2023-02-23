@@ -13,6 +13,10 @@ export default function ProductPage(props) {
   const [tempImgSrc, setTempImgSrc] = useState("");
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     fetch("/api/galeria.json")
       .then((response) => response.json())
       .then((data) => {
@@ -120,7 +124,7 @@ export default function ProductPage(props) {
                   Encomendar
                 </button>
               )}
-              <NavLink to="/loja">
+              <NavLink to="/galeria">
                 <button className="voltar">Voltar</button>
               </NavLink>
             </div>
@@ -130,16 +134,3 @@ export default function ProductPage(props) {
     </section>
   );
 }
-
-/*    {
-     product_image.src.map((image, index) => {
-       return index < 3 ? (
-         <div key={index} className="productRow">
-           <img
-             src={image.src}
-             alt={`arte ${image.name} em diferentes salas`}
-           />
-         </div>
-       ) : null;
-     });
-   } */

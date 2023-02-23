@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import FaqQuestions from "./FaqQuestions";
+import { useEffect } from "react";
 
 export default function Faq() {
   const [faq, setFaq] = useState([
@@ -33,6 +34,10 @@ export default function Faq() {
       open: false,
     },
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const toggleFAQ = (index) => {
     setFaq(

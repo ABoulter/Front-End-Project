@@ -55,6 +55,11 @@
   border: 4px solid orange;
 }
 
+.cardContainer .sobrenosContact {
+  padding-bottom: 15px;
+  color: darkblue;
+}
+
 .cardTitle {
   color: rgb(117, 116, 116);
 }

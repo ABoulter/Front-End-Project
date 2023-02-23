@@ -1,0 +1,56 @@
+.generatedContainer {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  background-image: url("/public/images/memeBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 5px solid black;
+}
+
+.generatedContainer .voltarMeme {
+  width: 50%;
+  background-color: rgb(217, 255, 2);
+  margin-bottom: 15px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 0.5s ease-in-out;
+  border: 1px solid black;
+}
+
+.generatedContainer .voltarMeme:hover {
+  background-color: white;
+  border-color: rgb(255, 255, 0);
+}
+
+.generatedContainer .clipboardBtn {
+  width: 30%;
+  background-color: rgb(83, 252, 5);
+  margin-bottom: 15px;
+  color: black;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 0.5s ease-in-out;
+  border: 1px solid black;
+}
+
+.generatedContainer .clipboardBtn:hover {
+  background-color: white;
+  border-color: rgb(43, 250, 43);
+}
+
+.generatedContainer .memeResultado {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin: 25px;
+  border: 2px solid black;
+}

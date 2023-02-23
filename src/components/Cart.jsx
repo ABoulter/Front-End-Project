@@ -1,9 +1,15 @@
+import { useEffect } from "react";
+
 export default function Cart(props) {
   const { cart, onAdd, onRemove } = props;
   const itemsPrice = cart.reduce((a, c) => a + c.qty * c.price, 0);
   const taxPrice = itemsPrice * 0.23;
   const shippingPrice = itemsPrice > 2000 ? 0 : 20;
   const totalPrice = itemsPrice + taxPrice + shippingPrice;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="cartSection">

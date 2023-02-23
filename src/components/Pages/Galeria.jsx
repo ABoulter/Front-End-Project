@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Loja() {
   const [art, setArt] = useState([]);
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,17 +26,18 @@ export default function Loja() {
       <div
         className={model ? "model open" : "model"}
         onClick={() => setModel(false)}>
-        <img
-          className="closeModal"
-          src="/images/close.png"
-          alt="butão de fechar"
-          onClick={() => setModel(false)}
-        />
-        {/* colocar butão */}
+        <button className="closeModalBtn">
+          <img
+            className="closeModal"
+            src="/images/close.png"
+            alt="butão de fechar"
+            onClick={() => setModel(false)}
+          />
+        </button>
         <img src={tempImgSrc} alt="" />
       </div>
       {art.map((category) => (
-        <section key={category.category_id}>
+        <section className="artSection" key={category.category_id}>
           <h2>
             <img src={category.category} alt={category.name} />
           </h2>
@@ -50,11 +52,15 @@ export default function Loja() {
                     alt={art.name}
                     onClick={() => getImg(art.image)}
                   />
-                  <NavLink
-                    to={`/art-details/${category.category_id}/${art.art_id}`}>
-                    <button> Encomendar!</button>
-                    {/* tirar butão, estilizar anchor */}
-                  </NavLink>
+
+                  <button
+                    onClick={() =>
+                      navigate(
+                        `/art-details/${category.category_id}/${art.art_id}`
+                      )
+                    }>
+                    Encomendar!
+                  </button>
                 </div>
                 <p>
                   Pelo baixíssimo preço de

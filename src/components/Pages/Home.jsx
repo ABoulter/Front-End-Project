@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <main className="hero">
       <h1>

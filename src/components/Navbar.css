@@ -24,30 +24,30 @@
   padding: 8px 30px;
 }
 
-.nav button {
+.nav ul a {
   background-color: rgb(255, 255, 255);
-  border: 3px solid rgb(31, 29, 29);
+  border: 3px solid rgb(0, 0, 0);
   padding: 5px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-.nav button:hover {
+.nav a:hover {
   cursor: pointer;
 }
 
-.nav button.galeriaNav:hover {
+.nav a.galeriaNav:hover {
   background-color: rgb(255, 5, 255);
 }
 
-.nav button.sobrenosNav:hover {
+.nav a.sobrenosNav:hover {
   background-color: rgb(101, 233, 84);
 }
-.nav button.faqNav:hover {
+.nav a.faqNav:hover {
   background-color: rgb(96, 205, 255);
 }
-.nav button.cartNav:hover {
+.nav a.cartNav:hover {
   background-color: rgb(230, 255, 5);
 }
 

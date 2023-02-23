@@ -60,19 +60,20 @@
   -webkit-filter: brightness(150%);
 }
 
-#art .artSection button {
+#art .artSection a {
   width: 100%;
   background-color: rgb(252, 145, 5);
+  text-decoration: none;
   margin-top: 4px;
   color: black;
-  padding: 12px 0;
+  padding: 12px 12px;
   cursor: pointer;
   text-transform: uppercase;
   border: 1px solid transparent;
   transition: background-color 1s ease-in-out;
 }
 
-#art .artSection button:hover {
+#art .artSection a:hover {
   background-color: white;
   border-color: black;
 }
@@ -93,7 +94,6 @@
   position: fixed;
   top: 10px;
   right: 10px;
-
   cursor: pointer;
 }
 .model {
@@ -140,4 +140,11 @@
   height: 4rem;
   padding: 5px;
   cursor: pointer;
+}
+
+#art .artSection .priceContainer {
+  margin-top: 25px;
+}
+#art .artSection .priceContainer p {
+  margin-top: 25px;
 }

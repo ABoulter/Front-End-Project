@@ -115,8 +115,8 @@ export default function ProductPage(props) {
                     -
                   </button>
 
-                  <NavLink to="/cart">
-                    <button className="goToCart">Ir para Cesto</button>
+                  <NavLink to="/cart" className="goToCart">
+                    Ir para Cesto
                   </NavLink>
                 </div>
               ) : (
@@ -124,8 +124,8 @@ export default function ProductPage(props) {
                   Encomendar
                 </button>
               )}
-              <NavLink to="/galeria">
-                <button className="voltar">Voltar</button>
+              <NavLink to="/galeria" className="voltar">
+                Voltar
               </NavLink>
             </div>
           )}

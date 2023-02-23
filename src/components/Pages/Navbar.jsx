@@ -1,49 +1,36 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar(props) {
   const { cartItems } = props;
-  const navigate = useNavigate();
+
   return (
     <nav className="nav">
       <div>
-        <NavLink to="/">
-          <img src="/images/logo.png" alt="Logo" />
+        <NavLink to="/" className="logoNav">
+          <img src="/images/logo.png" alt="Poubelle du Garage" />
         </NavLink>
       </div>
       <ul>
         <li className="active">
-          <button
-            onClick={() => navigate("/galeria")}
-            type="button"
-            className="galeriaNav">
+          <NavLink to="/galeria" className="galeriaNav">
             Galeria
-          </button>
+          </NavLink>
         </li>
-
         <li className="active">
-          <button
-            onClick={() => navigate("/sobrenos")}
-            type="button"
-            className="sobrenosNav">
+          <NavLink to="/sobrenos" className="sobrenosNav">
             Sobre nós
-          </button>
+          </NavLink>
         </li>
         <li className="active">
-          <button
-            onClick={() => navigate("/faq")}
-            type="button"
-            className="faqNav">
+          <NavLink to="/faq" className="faqNav">
             FAQ
-          </button>
+          </NavLink>
         </li>
         <li className="active">
-          <button
-            onClick={() => navigate("/cart")}
-            type="button"
-            className="cartNav">
+          <NavLink to="/cart" className="cartNav">
             CART (
             <span className="cartNumber">{cartItems ? cartItems : ""}</span>)
-          </button>
+          </NavLink>
         </li>
       </ul>
     </nav>

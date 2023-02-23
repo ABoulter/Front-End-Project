@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export default function Loja() {
   const [art, setArt] = useState([]);
@@ -45,28 +45,25 @@ export default function Loja() {
           <div id="allList" className={`artList${category.category_id}`}>
             {category.art.map((art) => (
               <div key={art.art_id}>
-                <div>
+                <div className="artImgContainer">
                   <h3>{art.name}</h3>
                   <img
                     src={art.image}
                     alt={art.name}
                     onClick={() => getImg(art.image)}
                   />
-
-                  <button
-                    onClick={() =>
-                      navigate(
-                        `/art-details/${category.category_id}/${art.art_id}`
-                      )
-                    }>
-                    Encomendar!
-                  </button>
                 </div>
-                <p>
-                  Pelo baixíssimo preço de
-                  <br />
-                  <span>{art.price}€</span>
-                </p>
+                <div className="priceContainer">
+                  <NavLink
+                    to={`/art-details/${category.category_id}/${art.art_id}`}>
+                    Encomendar!
+                  </NavLink>
+                  <p>
+                    Pelo baixíssimo preço de
+                    <br />
+                    <span>{art.price}€</span>
+                  </p>
+                </div>
               </div>
             ))}
           </div>

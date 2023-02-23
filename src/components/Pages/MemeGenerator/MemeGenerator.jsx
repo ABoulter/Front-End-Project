@@ -86,6 +86,7 @@ export default function MemeGenerator() {
           onChange={(e) => updateCaption(e, index)}
           key={index}
           placeholder={` Insere aqui o ${index + 1}º texto `}
+          aria-label={`Insere aqui o ${index + 1}º texto`}
         />
       ))}
       <img

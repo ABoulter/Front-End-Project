@@ -104,14 +104,18 @@ export default function ProductPage(props) {
 
               {item ? (
                 <div>
-                  <button className="productAdd" onClick={() => onAdd(item)}>
+                  <button
+                    className="productAdd"
+                    onClick={() => onAdd(item)}
+                    aria-label="Adicionar Produto">
                     +
                   </button>
 
                   <span>{item.qty}</span>
                   <button
                     className="productRemove"
-                    onClick={() => onRemove(item)}>
+                    onClick={() => onRemove(item)}
+                    aria-label="Remover Produto">
                     -
                   </button>
 
@@ -120,7 +124,9 @@ export default function ProductPage(props) {
                   </NavLink>
                 </div>
               ) : (
-                <button onClick={() => onAdd(productDetails)}>
+                <button
+                  onClick={() => onAdd(productDetails)}
+                  aria-label="Encomendar">
                   Encomendar
                 </button>
               )}

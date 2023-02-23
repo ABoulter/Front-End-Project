@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Loja() {
   const [art, setArt] = useState([]);
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
-  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

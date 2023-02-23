@@ -20,7 +20,7 @@ export default function Cart(props) {
         {cart.length === 0 && (
           <div className="emptyCart">
             <strong>O carrinho está vazio!</strong>
-            <img src="/images/emptyCart.png" alt="saco vazio" />{" "}
+            <img src="/images/emptyCart.png" alt="Saco vazio" />{" "}
           </div>
         )}
         {cart.map((item) => (
@@ -33,10 +33,16 @@ export default function Cart(props) {
               </p>
             </div>
             <div className="cartColTwo">
-              <button onClick={() => onAdd(item)} className="cartAdd">
+              <button
+                onClick={() => onAdd(item)}
+                className="cartAdd"
+                aria-label="Adicionar Produto">
                 +
               </button>
-              <button onClick={() => onRemove(item)} className="cartRemove">
+              <button
+                onClick={() => onRemove(item)}
+                className="cartRemove"
+                aria-label="Remover produto">
                 -
               </button>
             </div>

@@ -48,6 +48,7 @@ export default function Editor() {
               onChange={(e) => {
                 setPanelWidth(e.target.value);
               }}
+              Aria-label="Largura"
             />
             <span>Largura</span>
           </div>
@@ -59,6 +60,7 @@ export default function Editor() {
               onChange={(e) => {
                 setPanelHeight(e.target.value);
               }}
+              aria-label="Altura"
             />
             <span>Altura</span>
           </div>

@@ -22,7 +22,7 @@ export default function Home() {
       <div className="obrasContainer">
         <div className="novaColecao">
           <NavLink to="/galeria">
-            <img src="/images/lojaa.gif" alt="todas as obras" />
+            <img src="/images/lojaa.gif" alt="A nossa Galeria" />
           </NavLink>
         </div>
         <div className="aTuaObra">
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="infoContainer">
         <div className="faq">
           <NavLink to="/faq">
-            <img src="/images/FAQ.png" alt="Perguntas" />
+            <img src="/images/FAQ.png" alt="Tens alguma duvida? Clica aqui" />
           </NavLink>
         </div>
         <div className="sobreNos">
@@ -61,9 +61,6 @@ export default function Home() {
           </NavLink>
         </div>
       </div>
-      <footer className="footer">
-        <img src="/images/footer.png" alt="" />
-      </footer>
     </main>
   );
 }

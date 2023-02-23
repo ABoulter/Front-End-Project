@@ -11,6 +11,10 @@
 .hero div img {
   border: 3px solid #000;
 }
+.hero div img:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(150%);
+}
 
 .obrasContainer div {
   margin-right: 25px;

@@ -1,7 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export default function Navbar(props) {
   const { cartItems } = props;
+  const navigate = useNavigate();
   return (
     <nav className="nav">
       <div>
@@ -11,34 +12,38 @@ export default function Navbar(props) {
       </div>
       <ul>
         <li className="active">
-          <NavLink to="/galeria">
-            <button type="button" className="galeriaNav">
-              Galeria
-            </button>
-          </NavLink>
+          <button
+            onClick={() => navigate("/galeria")}
+            type="button"
+            className="galeriaNav">
+            Galeria
+          </button>
         </li>
 
         <li className="active">
-          <NavLink to="/sobrenos">
-            <button type="button" className="sobrenosNav">
-              Sobre nós
-            </button>
-          </NavLink>
+          <button
+            onClick={() => navigate("/sobrenos")}
+            type="button"
+            className="sobrenosNav">
+            Sobre nós
+          </button>
         </li>
         <li className="active">
-          <NavLink to="/faq">
-            <button type="button" className="faqNav">
-              FAQ
-            </button>
-          </NavLink>
+          <button
+            onClick={() => navigate("/faq")}
+            type="button"
+            className="faqNav">
+            FAQ
+          </button>
         </li>
         <li className="active">
-          <NavLink to="/cart">
-            <button type="button" className="cartNav">
-              CART (
-              <span className="cartNumber">{cartItems ? cartItems : ""}</span>)
-            </button>
-          </NavLink>
+          <button
+            onClick={() => navigate("/cart")}
+            type="button"
+            className="cartNav">
+            CART (
+            <span className="cartNumber">{cartItems ? cartItems : ""}</span>)
+          </button>
         </li>
       </ul>
     </nav>

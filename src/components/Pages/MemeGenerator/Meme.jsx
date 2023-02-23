@@ -22,12 +22,12 @@ export default function Meme() {
         <img src="/images/memeResultado.png" />
       </h1>
       <button onClick={() => navigate("/memegenerator")} className="voltarMeme">
-        Fazer mais memes
+        Fazer mais Memes!
       </button>
 
       {url && <img src={url} alt="" className="memeResultado" />}
       <button onClick={copyLink} className="clipboardBtn">
-        {copied ? "Link Copiado" : "Partilhar"}
+        {copied ? "Link Copiado" : "Partilhar!"}
       </button>
     </div>
   );

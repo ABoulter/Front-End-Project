@@ -16,30 +16,28 @@
   -webkit-filter: brightness(150%);
 }
 
-.obrasContainer div {
-  margin-right: 25px;
-  margin-left: 10px;
-}
-.infoContainer div {
-  margin-right: 25px;
-  margin-left: 10px;
-}
-.headerMobile {
-  display: none;
-  border: 5px solid #000;
-}
-
-.memeDesktop {
-  max-width: 100%;
-  width: 97%;
-  margin-right: 7px;
-}
-.memeMobile {
-  display: none;
-  border: 1px solid #000;
-}
-
 @media (min-width: 560px) {
+  .obrasContainer div {
+    margin-right: 25px;
+    margin-left: 10px;
+  }
+  .infoContainer div {
+    margin-right: 25px;
+    margin-left: 10px;
+  }
+  .headerMobile {
+    display: none;
+  }
+
+  .memeDesktop {
+    max-width: 100%;
+    width: 97%;
+    margin-right: 7px;
+  }
+  .memeMobile {
+    display: none;
+    border: 1px solid #000;
+  }
   .infoContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,14 +53,12 @@
     margin-bottom: 15px;
     margin-right: 15px;
   }
-  .hero .footer img {
-    display: none;
-    border: none;
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 560px) {
+  .hero div {
+    margin-bottom: 20px;
+  }
   .hero h1 .headerTitle {
     display: none;
     max-width: 99%;
@@ -73,6 +69,8 @@
     display: block;
     max-width: 99%;
     max-height: 99%;
+
+    border: 3px solid #000;
   }
 
   .memeGenerator .memeDesktop {
@@ -83,12 +81,5 @@
     max-width: 99%;
     max-height: 99%;
     margin-bottom: 5px;
-    margin-left: 10px;
-  }
-
-  .hero .footer img {
-    display: none;
-    max-width: 100%;
-    max-height: 100%;
   }
 }

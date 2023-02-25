@@ -22,6 +22,7 @@
 .cardTeam {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
   margin: 8px;
+  height: auto;
 }
 
 .cardTeam img {
@@ -64,7 +65,7 @@
   color: rgb(117, 116, 116);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .columnTeam {
     width: 100%;
     display: block;

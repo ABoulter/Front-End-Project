@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
 .obra {
+  max-width: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background: white;
@@ -15,6 +17,7 @@
 
 #drawingPanel {
   display: flex;
+
   flex-direction: column;
   align-items: center;
 }

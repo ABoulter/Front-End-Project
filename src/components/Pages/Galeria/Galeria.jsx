@@ -23,6 +23,9 @@ export default function Loja() {
 
   return (
     <main id="art">
+      <h1>
+        <img src="/images/galeriatitle.png" alt="Galeria" />
+      </h1>
       <div
         className={model ? "model open" : "model"}
         onClick={() => setModel(false)}>

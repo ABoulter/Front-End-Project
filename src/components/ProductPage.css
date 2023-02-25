@@ -1,46 +1,3 @@
-.productPage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.productViewer {
-  width: 100%;
-  padding: 10px;
-  border: 1.5px solid black;
-  margin: 30px;
-
-  background-image: url("/public/images/superNintendo.jpg");
-}
-
-.productViewer .viewerRow {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.productViewer .viewerRow .viewerColOne {
-  flex: 1;
-
-  padding: 6px;
-}
-.productViewer .viewerRow .viewerColOne .productRow {
-  width: 100%;
-  padding: 2px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  border: 1px solid black;
-  background-color: none;
-}
-.productViewer .viewerRow .viewerColOne .productRow img {
-  display: block;
-  width: 100%;
-}
-.productViewer .viewerRow .viewerColTwo {
-  margin: 0 auto;
-  flex: 5;
-}
 .productViewer .viewerRow .viewerColTwo .displayProduct {
   background-color: burlywood;
   background-image: url("/public/images/retroSwirl.jpg");
@@ -55,32 +12,9 @@
 .productViewer .viewerRow .viewerColTwo .displayProduct div {
   padding: 2rem;
 }
-.productViewer .viewerRow .viewerColTwo .displayProduct div img {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-  border: 1px solid black;
-}
+
 .productViewer .viewerRow .viewerColTwo .displayProduct div img:hover {
   cursor: pointer;
-}
-
-.productDescription {
-  display: flex;
-  background-color: rgb(241, 237, 237);
-  background-image: url("/public/images/rustyOverlay.png");
-  max-width: 100%;
-  width: 25%;
-
-  height: 25%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 20px;
-  margin: 100px auto 100px 50px;
-  border: 2px solid black;
 }
 
 .productDescription .price {
@@ -93,17 +27,6 @@
   border: 1px solid black;
 }
 
-.productDescription button {
-  width: 100%;
-  background-color: rgb(252, 145, 5);
-  margin-bottom: 5px;
-  color: black;
-  padding: 12px 0;
-  cursor: pointer;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  transition: background-color 1s ease-in-out;
-}
 .productDescription button:hover {
   background-color: rgb(250, 240, 240);
   border-color: rgb(95, 245, 8);
@@ -164,21 +87,297 @@
   border-color: rgb(17, 15, 15);
 }
 
-.productDescription .voltar {
-  width: 40%;
-  background-color: rgb(10, 10, 10);
-  border-radius: 5%;
-  margin: 25px 0 25px 0;
-  text-decoration: none;
-  font-size: medium;
-  text-transform: lowercase;
-  color: rgb(253, 250, 250);
-  padding: 10px;
-  cursor: pointer;
-  border: 1px solid black;
-  transition: background-color 1s ease-in-out;
-}
 .productDescription .voltar:hover {
   background-color: rgb(247, 110, 110);
   border-color: black;
+}
+
+@media (min-width: 1024px) {
+  .productPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .productViewer {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid black;
+    margin: 30px;
+
+    background-image: url("/public/images/superNintendo.jpg");
+  }
+
+  .productViewer .viewerRow {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .productViewer .viewerRow .viewerColTwo {
+    margin: 0 auto;
+    flex: 5;
+  }
+
+  .productViewer .viewerRow .viewerColTwo .displayProduct div img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  .productViewer .viewerRow .viewerColOne {
+    flex: 1;
+
+    padding: 6px;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: none;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow img {
+    display: block;
+    width: 100%;
+  }
+
+  .productViewer .viewerRow .productDescription {
+    display: flex;
+    background-color: rgb(241, 237, 237);
+    background-image: url("/public/images/rustyOverlay.png");
+    max-width: 100%;
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin: 100px auto 100px 50px;
+    border: 2px solid black;
+  }
+
+  .productDescription button {
+    width: 100%;
+    background-color: rgb(252, 145, 5);
+    margin-bottom: 5px;
+    color: black;
+    padding: 12px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: background-color 1s ease-in-out;
+  }
+
+  .productDescription .voltar {
+    width: 40%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 5%;
+    margin: 25px 0 25px 0;
+    text-decoration: none;
+    font-size: medium;
+    text-transform: lowercase;
+    color: rgb(253, 250, 250);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 1s ease-in-out;
+  }
+}
+
+@media (max-width: 1024px) {
+  .productPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .productViewer {
+    width: 700px;
+    padding: 10px;
+    border: 1.5px solid black;
+    margin: 30px;
+    background-image: url("/public/images/superNintendo.jpg");
+    background-size: cover;
+  }
+
+  .productViewer .viewerRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .productViewer .viewerRow .viewerColTwo {
+    margin: 0 auto;
+    flex: 6;
+  }
+
+  .productViewer .viewerRow .viewerColTwo .displayProduct div img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .productViewer .viewerRow .viewerColOne {
+    flex: 1;
+    padding: 6px;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow {
+    width: 100px;
+    padding: 2px;
+    margin: 15px 10px 15px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: none;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow img {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+
+  .productViewer .viewerRow .productDescription {
+    display: flex;
+    background-color: rgb(241, 237, 237);
+    background-image: url("/public/images/rustyOverlay.png");
+    max-width: 100%;
+    width: 80%;
+    height: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin: 15px auto 20px auto;
+    border: 2px solid black;
+  }
+
+  .productDescription button {
+    width: 50%;
+    background-color: rgb(252, 145, 5);
+    margin-bottom: 5px;
+    color: black;
+    padding: 12px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: background-color 1s ease-in-out;
+  }
+  .productDescription .voltar {
+    width: 15%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 5%;
+    margin: 25px 0 25px 0;
+    text-decoration: none;
+    font-size: medium;
+    text-transform: lowercase;
+    color: rgb(253, 250, 250);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 1s ease-in-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .productPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .productViewer {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid black;
+    margin: 30px;
+    background-image: url("/public/images/superNintendo.jpg");
+    background-size: cover;
+  }
+
+  .productViewer .viewerRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .productViewer .viewerRow .viewerColTwo {
+    margin: 0 auto;
+    flex: 6;
+  }
+
+  .productViewer .viewerRow .viewerColTwo .displayProduct div img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .productViewer .viewerRow .viewerColOne {
+    flex: 1;
+    padding: 6px;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow {
+    width: 100px;
+    padding: 2px;
+    margin: 15px 5px 15px 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: none;
+  }
+  .productViewer .viewerRow .viewerColOne .productRow img {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+
+  .productViewer .viewerRow .productDescription {
+    display: flex;
+    background-color: rgb(241, 237, 237);
+    background-image: url("/public/images/rustyOverlay.png");
+    max-width: 100%;
+    width: 90%;
+    height: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin: 15px auto 20px auto;
+    border: 2px solid black;
+  }
+
+  .productDescription button {
+    width: 50%;
+    background-color: rgb(252, 145, 5);
+    margin-bottom: 5px;
+    color: black;
+    padding: 12px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: background-color 1s ease-in-out;
+  }
+  .productDescription .voltar {
+    width: 15%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 5%;
+    margin: 25px 0 25px 0;
+    text-decoration: none;
+    font-size: medium;
+    text-transform: lowercase;
+    color: rgb(253, 250, 250);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: background-color 1s ease-in-out;
+  }
 }

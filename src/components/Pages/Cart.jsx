@@ -56,7 +56,7 @@ export default function Cart(props) {
               <div className="cartColThree">{itemsPrice.toFixed(2)}€</div>
             </div>
             <div className="cartRow">
-              <div className="cartColTwo">IVA</div>
+              <div className="cartColTwo">IVA 23%</div>
               <div className="cartColThree">{taxPrice.toFixed(2)}€</div>
             </div>
             <div className="cartRow">

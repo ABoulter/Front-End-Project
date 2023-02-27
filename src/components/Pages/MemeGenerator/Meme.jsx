@@ -19,7 +19,7 @@ export default function Meme() {
   return (
     <div className="generatedContainer">
       <h1>
-        <img src="/images/memeResultado.png" />
+        <img src="/images/memeResultado.png" alt="Resultado" />
       </h1>
       <button onClick={() => navigate("/memegenerator")} className="voltarMeme">
         Fazer mais Memes!

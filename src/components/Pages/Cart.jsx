@@ -20,7 +20,7 @@ export default function Cart(props) {
         {cart.length === 0 && (
           <div className="emptyCart">
             <strong>O carrinho está vazio!</strong>
-            <img src="/images/emptyCart.png" alt="Saco vazio" />{" "}
+            <img src="/images/emptyCart.png" alt="Saco vazio" />
           </div>
         )}
         {cart.map((item) => (

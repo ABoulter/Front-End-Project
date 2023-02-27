@@ -116,7 +116,7 @@ export default function Faq() {
             required
           />
           <textarea name="message" cols="30" rows="10"></textarea>
-          <button type="submit" className="formBtn" aria-label="Enviar">
+          <button type="submit" className="formBtn">
             Enviar
           </button>
         </form>

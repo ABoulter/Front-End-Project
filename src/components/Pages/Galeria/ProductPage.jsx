@@ -124,9 +124,7 @@ export default function ProductPage(props) {
                   </NavLink>
                 </div>
               ) : (
-                <button
-                  onClick={() => onAdd(productDetails)}
-                  aria-label="Encomendar">
+                <button onClick={() => onAdd(productDetails)}>
                   Encomendar
                 </button>
               )}

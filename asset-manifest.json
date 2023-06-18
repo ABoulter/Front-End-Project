@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e53b1bfe.css",
+    "main.js": "/static/js/main.15d06200.js",
+    "static/js/787.7045fdef.chunk.js": "/static/js/787.7045fdef.chunk.js",
+    "static/media/superNintendo.jpg": "/static/media/superNintendo.4189dce65dca81697ab4.jpg",
+    "static/media/memeBackground.jpg": "/static/media/memeBackground.452db0c05ada2a70eaa0.jpg",
+    "static/media/rustyOverlay.png": "/static/media/rustyOverlay.89189a9eaa57998fa397.png",
+    "static/media/editorbackground.jpg": "/static/media/editorbackground.3dcef6455166a2e869d3.jpg",
+    "static/media/retroSwirl.jpg": "/static/media/retroSwirl.3e1150a71f4f67bf6ea3.jpg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.1edfab86f389055c97b8.svg",
+    "main.e53b1bfe.css.map": "/static/css/main.e53b1bfe.css.map",
+    "main.15d06200.js.map": "/static/js/main.15d06200.js.map",
+    "787.7045fdef.chunk.js.map": "/static/js/787.7045fdef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e53b1bfe.css",
+    "static/js/main.15d06200.js"
+  ]
+}
